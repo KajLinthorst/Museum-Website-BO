@@ -13,6 +13,10 @@ img{
     padding-top: 0px;
     
 }
+main section
+{
+    height: 80vh;
+}
 nav{
     font-size: 150%;
     font-family: monospace;
@@ -34,3 +38,5 @@ nav{
 .nav-links{
     padding-top: 53px;
 }
+
+
