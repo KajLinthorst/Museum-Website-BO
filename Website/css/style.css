@@ -11,13 +11,16 @@ a{
 }
 img{
     padding-top: 0px;
+    
 }
 nav{
+    font-size: 150%;
+    font-family: monospace;
     margin-top: -10px;
     display: flex;
     background: rgba(0,0,0,0.5);
 }
 
 .nav-links{
-    padding-top: 55px;
+    padding-top: 53px;
 }
