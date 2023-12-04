@@ -18,9 +18,22 @@ nav{
     font-family: monospace;
     margin-top: -10px;
     display: flex;
+    justify-content: space-between;
     background: rgba(0,0,0,0.5);
 }
+.rightnavigation{
+    
+    display: flex;
+    line-height: 130px;
+}
+.leftnavigation
+{
+    display: flex;
 
+}
 .nav-links{
     padding-top: 53px;
+}
+.nav-links2{
+
 }
