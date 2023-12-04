@@ -1,0 +1,21 @@
+body {
+
+    background-color: black;
+    color: white;
+}
+a{
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+img{
+    padding-top: 3px;
+}
+nav{
+    display: flex;
+}
+
+.nav-links{
+    padding-top: 50px;
+}
