@@ -17,7 +17,13 @@ main section
 {
     height: 80vh;
 }
-
+.rtext
+{
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
 .reviews{
     background-color: gray;
 }
@@ -26,6 +32,8 @@ main section
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    color: black;
+    font-size: 200%;
 }
 .review
 {
@@ -34,6 +42,7 @@ main section
     width: 400px;
     margin-top: 50px;
 }
+
 
 nav{
     font-size: 150%;
