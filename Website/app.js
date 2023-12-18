@@ -13,6 +13,7 @@ function inputReview(){
         let pick = reviewList[rN] + ": " + reviewContent[rN];
         reviewTags[i].innerText = pick
         reviewList.splice(rN, 1);
+        reviewContent.splice(rN, 1);
     }
 
 
