@@ -13,10 +13,22 @@ img{
     padding-top: 0px;
     
 }
+main {
+    margin:0px;
+    padding:0px;
+}
 main section
 {
+    
     height: 80vh;
 }
+
+.mainimage
+{
+height: 391px;
+
+}
+
 .rtext
 {
     font-style: italic;
@@ -66,4 +78,81 @@ nav{
     padding-top: 53px;
 }
 
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+   
+    background-image: url("Staage.png");
+  
+  
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
 
+    height: 100%;
+  
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .blurred{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  }
+  .blurred:hover{
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  }
+  .bg-image {
+   
+    background-image: url("kleur.png");
+  
+  
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+
+    height: 100%;
+  
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .blurred{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  }
+  .blurred:hover{
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  }
+.sideimage
+{
+    height: 500px;
+}
+.fotolayout
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+  justify-content: space-around;
+}
+.language-switcher {
+    margin: 10px;
+  }
+  
+  .language-switcher button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+  }
