@@ -170,9 +170,6 @@ body, html {
     align-content: center;
 }
 
-img {
-    margin: 5px;
-}
 
 .colom {
     display: flex;
