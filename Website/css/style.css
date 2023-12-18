@@ -1,5 +1,5 @@
 body {
-
+    margin: 0px;
     background-color: black;
     color: white;
 }
@@ -32,7 +32,8 @@ height: 391px;
     margin-left: 10px;
 }
 .reviews{
-    background-color: gray;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(88,88,121,1) 25%, rgba(87,89,122,1) 34%, rgba(86,91,124,1) 39%, rgba(86,91,124,1) 39%, rgba(85,92,125,1) 43%, rgba(84,93,126,1) 49%, rgba(84,94,127,1) 52%, rgba(84,94,127,1) 55%, rgba(77,103,137,1) 100%, rgba(0,212,255,1) 100%);
 }
 
 .reviewrow{
@@ -40,11 +41,18 @@ height: 391px;
     flex-direction: row;
     justify-content: space-evenly;
     color: black;
+
+
+}
+.rtitle{
+    color: white;
     font-size: 200%;
+    
 }
 .review
 {
-    background-color: aliceblue;
+    background-color: white;
+    box-shadow: 10px 10px 5px black;
     height: 200px;
     width: 400px;
     margin-top: 50px;
@@ -121,10 +129,12 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
   .blurred{
     filter: blur(8px);
     -webkit-filter: blur(8px);
   }
+
   .blurred:hover{
     filter: blur(0px);
     -webkit-filter: blur(0px);
