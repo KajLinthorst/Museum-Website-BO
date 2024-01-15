@@ -18,6 +18,13 @@ main {
     padding:0px;
 }
 
+.bottom {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 5px black;
+    height: 400px;
+    width: 400px;
+}
+
 .mainimage
 {
 height: 391px;
@@ -46,7 +53,8 @@ height: 391px;
 }
 .rtitle{
     color: white;
-    font-size: 200%;
+    margin-bottom: -20px;
+    font-size: 300%;
     
 }
 .review
@@ -80,6 +88,7 @@ nav{
 .nav-links{
     padding-top: 53px;
 }
+
 
 body, html {
     height: 100%;
@@ -179,6 +188,7 @@ body, html {
 
 }
 
+ HEAD
 body{
   font-family: 'Arial', sans-serif;
   margin: 0;
@@ -203,11 +213,67 @@ main{
   background-image: url("/img/Staage.png");
   color: white;
   font-size: 75px;
+  background-size: 100%;
   
 }
 .TijdenMain{
   background-image: url("/img/page.png");
   color: white;
  font-size: 1115x;
- 
+}
+
+footer{
+  height: 585px;
+  width: 100%;
+  background-color: black;
+  
+}
+
+.row {
+  margin: 0 0px;
+}
+
+a.social {
+  padding: 0 0 0 40px;
+  text-decoration: none;
+  position: relative;
+}
+
+a.social.instagram_url:before {
+  background: url(../img/instagram.svg) no-repeat center;
+  background-size: 100%;
+}
+
+a.social.youtube_url:before {
+  background: url(../img/youtube.svg) no-repeat center;
+  background-size: 100%;
+}
+
+a.social.tiktok_url:before {
+  background: url(../img/tiktok.svg) no-repeat center;
+  background-size: 100%;
+}
+
+a.social.twitter_url:before {
+  background: url(../img/twitter.svg) no-repeat center;
+  background-size: 100%;
+}
+
+a.social:before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 24px;
+  height: 24px;
+  content: '';
+  transform: translate(0, -50%);
+}
+
+.opening-times,
+.adres,
+.socials {
+  background-color: #000000;
+  padding: 20px;
+  border: 1px solid #ffffff;
+
 }
