@@ -18,6 +18,13 @@ main {
     padding:0px;
 }
 
+.bottom {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 5px black;
+    height: 400px;
+    width: 400px;
+}
+
 .mainimage
 {
 height: 391px;
@@ -46,7 +53,8 @@ height: 391px;
 }
 .rtitle{
     color: white;
-    font-size: 200%;
+    margin-bottom: -20px;
+    font-size: 300%;
     
 }
 .review
@@ -80,6 +88,7 @@ nav{
 .nav-links{
     padding-top: 53px;
 }
+
 
 body, html {
     height: 100%;
@@ -177,4 +186,23 @@ body, html {
     justify-content: center;
     align-content: center;
 
+}
+
+footer{
+  height: 460px;
+  width: 100%;
+  background-color: black;
+  
+}
+
+.info-row {
+  margin-bottom: 5px; /* Adjust the margin between rows as needed */
+}
+
+.opening-times,
+.adres,
+.socials {
+  background-color: #000000;
+  padding: 20px;
+  border: 1px solid #ffffff;
 }
