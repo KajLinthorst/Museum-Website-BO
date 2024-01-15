@@ -82,8 +82,17 @@ nav{
 
 }
 .nav-links{
-    padding-top: 53px;
+    display:flex;
+    flex-direction: row;
 }
+.centerlinks{
+
+  display:flex;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap:wrap;
+}
+
 
 
 body, html {
@@ -198,30 +207,34 @@ height: 100vh;
 main{
   background-size: cover;
   flex-grow: 1;
+  
 }
 
 
 .DonatieMain{
   background-image: url("/img/kleur.png");
   color: black;
-  font-size: 100px;
-  font-style: italic;
+  height: 1000px;
 }
 
 .socialsMain{
   background-image: url("/img/Staage.png");
   color: white;
   font-size: 75px;
-  background-size: 100%;
+  height: 1000px;
   
 }
 
 .TijdenMain{
   background-image: url("/img/page.png");
   color: white;
- font-size: 1115x;
+  height: 1000px;
 }
-
+.OnsMain{
+  background-image: url("/img/stage.png");
+  color: white;
+  height: 1000px;
+}
 footer{
   height: 500px;
   width: 100%;
