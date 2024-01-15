@@ -156,7 +156,7 @@ body, html {
     margin: 0 5px;
     cursor: pointer;
     border: 1px solid #ccc;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0
   }
   body {
     background-color: black;
@@ -177,4 +177,37 @@ body, html {
     justify-content: center;
     align-content: center;
 
+}
+
+body{
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  display:flex;
+flex-direction: column;
+height: 100vh;
+}
+main{
+  background-size: cover;
+  flex-grow: 1;
+}
+
+.DonatieMain{
+  background-image: url("/img/kleur.png");
+  color: black;
+  font-size: 100px;
+  font-style: italic;
+}
+.socialsMain{
+  background-image: url("/img/Staage.png");
+  color: white;
+  font-size: 75px;
+  
+}
+.TijdenMain{
+  background-image: url("/img/page.png");
+  color: white;
+ font-size: 1115x;
+ 
 }
