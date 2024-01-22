@@ -37,14 +37,20 @@ main {
   font-size: 40px;
   padding: 30px;
   
-  
+}
+.socials-times-page
+{
+  font-size: 40px;
+  padding: 30px;
+  color: white;  
 }
 
 .opening-time-img
 {
   float: right;
-  margin-top: -578px;
+  margin-top: -570px;
 }
+
 
 .mainimage
 {
@@ -241,13 +247,16 @@ main{
 }
 
 .socialsMain{
-  background-image: url("/img/Staage.png");
+  
   color: white;
   font-size: 75px;
   height: 1000px;
   
 }
 
+.socials-page{
+  font-size: 30px;
+}
 .Main{
   color: white;
   height: 1000px;
