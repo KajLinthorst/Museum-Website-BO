@@ -21,3 +21,25 @@ function inputReview(){
 
 }
 inputReview();
+
+document.addEventListener("DOMContentLoaded", function () {
+    const slider = document.querySelector('.slider');
+    let currentIndex = 0;
+  
+    function showImage(index) {
+      const newTransformValue = -index * 100 + '%';
+      slider.style.transform = 'translateX(' + newTransformValue + ')';
+    }
+  
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % slider.children.length;
+      showImage(currentIndex);
+    }
+  
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + slider.children.length) % slider.children.length;
+      showImage(currentIndex);
+    }
+  
+    setInterval(nextSlide, 3000);
+  });
