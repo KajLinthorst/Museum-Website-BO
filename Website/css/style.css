@@ -25,6 +25,20 @@ main {
     width: 400px;
 }
 
+.opening-times-page
+{
+  font-size: 40px;
+  padding: 30px;
+  
+  
+}
+
+.opening-time-img
+{
+  float: right;
+  margin-top: -578px;
+}
+
 .mainimage
 {
 height: 391px;
@@ -225,8 +239,7 @@ main{
   
 }
 
-.TijdenMain{
-  background-image: url("/img/page.png");
+.Main{
   color: white;
   height: 1000px;
 }
