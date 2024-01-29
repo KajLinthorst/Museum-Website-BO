@@ -253,15 +253,24 @@ main{
   height: 1000px;
 }
 .OnsMain{
-  background-image: url("/img/hoi.jpg");
-  color: white;
-  height: 1000px;
+  background: url(../img/5\ persfoto.jpg) no-repeat center;
+  color: rgb(255, 255, 255);
+  height: 3000px;
 }
 .OnsMain span{
  font-style: sans-serif;
 font-size: 90px;
 }
-
+.ons-title{
+  
+  padding: 40px;
+  letter-spacing: 4px;
+}
+.ons-description {
+  height: 500px;
+  font-size: 14px;
+  padding: 40px;
+}
 .OnsMain p{
   font-size:20px;
   padding:bottom
