@@ -14,7 +14,6 @@ a{
     color: white;
     padding-right: 15px;
     padding-left: 15px;
-
     
 }
 img{
@@ -24,7 +23,6 @@ img{
 main {
     margin:0px;
     padding:0px;
-    
 }
 
 .bottom {
@@ -324,7 +322,7 @@ a.social:before {
 .bigFigure{
   width: 100%;
   height: 90vh;
-  max-height: 80vh;
+
 }
 
 .bigFigure > img{
@@ -347,7 +345,7 @@ a.social:before {
 
 .slider {
   display: flex;
-  aspect-ratio:  16 / 9;
+   aspect-ratio: 16 / 9;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0, 0, 0.25);
